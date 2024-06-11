@@ -1,0 +1,13 @@
+name = "minichat-backend"
+type = "webpack"
+workers_dev = true
+route = "minichat-backend.worker.dev" # Cambia esto a tu dominio personalizado si lo tienes
+
+
+[build]
+  command = "npm start"
+  upload_format = "service-worker"
+  watch = false  # Esto detiene la construcción después de iniciar tu servidor
+
+[site]
+  bucket = "./src"  # Si tu aplicación incluye archivos estáticos
