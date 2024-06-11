@@ -1,0 +1,12 @@
+---
+import Chat from '../components/reactComponents/chat';
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Welcome to Astro.">
+	<h1 class="text-2xl text-red-500">Mi chat</h1>
+	<div class="m-5">
+		<Chat client:load/>
+	</div>
+</Layout>
+	
