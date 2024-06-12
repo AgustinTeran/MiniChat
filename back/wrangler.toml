@@ -9,3 +9,5 @@ route = "minichat-backend.worker.dev" # Cambia esto a tu dominio personalizado s
   command = "npm start"
   upload_format = "service-worker"
   watch = false  # Esto detiene la construcción después de iniciar tu servidor
+  pages_build_output_dir = "./src"
+  
