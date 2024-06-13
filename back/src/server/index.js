@@ -19,7 +19,7 @@ app.get('/', (req, res) => {
 
 
 // sockets
-var server = require("http").createServer(server)
+var server = require("http").createServer(app)
 
 var {Server} = require("socket.io")
 var io = new Server(server,{
