@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react"
 import io from "socket.io-client"
 
-var socket = io("http://localhost:3001");
+var socket = io("https://minichat-oby5.onrender.com");
 
 export default function Chat() {
   
